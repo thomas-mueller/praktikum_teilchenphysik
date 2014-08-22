@@ -24,7 +24,7 @@ sehr speicherintensiv. Die benutzte Methode speichert nur wie viele Inhalte
 in den Bins existieren.
 """
 
-class DetailDiagram:
+class DetailDiagram(object):
 	"""
 	DetailDiagram
 
@@ -136,7 +136,7 @@ class DetailDiagram:
 		
 		plt.legend(handles, labels.values())
 
-class Histo:
+class Histo(object):
 	"""
 	Klasse, die ein normales Histogramm mit doppelt logarithmischen Skalen
 	beschreibt.

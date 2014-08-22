@@ -19,7 +19,7 @@ Klasse benötigt.
 h = 4.135e-15 # eV*s
 c = 2.997e8   # m/s
 
-class Teilchen:
+class Teilchen(object):
 	"""
 	Diese Klasse beinhaltet für den
 	Versuch alle relevanten Daten, die ein Teilchen haben kann. Diese werden mit

@@ -59,7 +59,7 @@ class DetailDiagram(object):
 		"""Trägt den Wert value in das Histogramm ein"""
 		# Welches Bin?
 		try:
-			bin_num = math.floor(float(value-self._min_m)/self._step)
+			bin_num = int(math.floor(float(value-self._min_m)/self._step))
 		except TypeError:
 			print "Versuche den Wert %s einzutragen, der jedoch nicht in den Grenzen des Histogramms liegt."%value
 			return
